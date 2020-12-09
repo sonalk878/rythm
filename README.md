@@ -10,6 +10,7 @@
 * Creating a design layout for the images to be displayed in the gallery
 * Adding announcements and saving them in firebase as well for backup storage
 * Calendar activity
+* The backend for the buttons in the addAnnouncement activity
 
 ## Uncertainties:
 * Not sure how to specify which firebase account to save to by default. 
