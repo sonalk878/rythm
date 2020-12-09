@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
     private Uri imageUri;
     AlphaAnimation buttonClick;
     private StorageReference storageReference ;//need to take our user authentication to store?
-    private DatabaseReference databaseRef;
     Bitmap photo;
     ImageView selectedImage;
     ListView list;
@@ -53,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         cameraButton = findViewById(R.id.imageButton3);
         storageReference = FirebaseStorage.getInstance().getReference();//will pass the image to a folder called uploads in firebase
-        //databaseRef = FirebaseDatabase.getInstance().getReference("uploads");
         selectedImage = findViewById(R.id.imageView);
         galleryButton = findViewById(R.id.imageButton2);
         buttonClick = new AlphaAnimation(1F, 0.8F);//adds a mini animation when the button is clicked
