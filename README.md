@@ -7,6 +7,7 @@
 
 ## Still need to implement:
 * Getting the images from firebase and displaying them in the gallery 
+* Creating a design layout for the images to be displayed in the gallery
 * Adding announcements and saving them in firebase as well for backup storage
 * Calendar activity
 
