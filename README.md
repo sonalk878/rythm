@@ -2,7 +2,7 @@
 ## Done:
 * Completed layout for all activities
 * Camera activity successfully sends the image capture to the firebase account for backup storage
-* Announcement gets added to database as a text file
+* New announcement gets added to database as a text file
 
 
 ## Still need to implement:
